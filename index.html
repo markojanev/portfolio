@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            margin: 0;
+            overflow: hidden;
+            background-color: black;
+        }
+        
+        .absolute {
+            position: absolute;
+            width: 100vw;
+            height: 100vh;
+        }
+        
+        .navbar {
+            height: 100px;
+            bottom: 0;
+            background-color: #FFFFFB;
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        .backBtn {
+            height: 100px;
+            width: 100px;
+            background-color: blanchedalmond;
+            cursor: pointer;
+        }
+        
+        .img-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .img-background {
+            background-color: black;
+            opacity: 0.5;
+        }
+        
+        .imgElement {
+            max-width: 100vw;
+            max-height: 100vh;
+        }
+    </style>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="parent">
+        <canvas class="view"></canvas>
+        <div class="navbar absolute"></div>
+    </div>
+    <script src="bundle.js"></script>
+</body>
+
+</html>
