@@ -4,8 +4,5 @@ export declare const environment: {
     contentful: {
         spaceId: string;
         token: string;
-        entry: {
-            characterDesign: string;
-        };
     };
 };
