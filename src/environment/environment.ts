@@ -3,9 +3,6 @@ export const environment = {
     debug: false,
     contentful: {
       spaceId: 'wjkjihbj99yq',
-      token: '451roIHkh8LdkKY5VZ9dyOIQ0zkJF8S_V-_-URlQppo',
-      entry: {
-        characterDesign: 'wJSdM2CJmCsmnMMiJXptL'
-      }
+      token: '451roIHkh8LdkKY5VZ9dyOIQ0zkJF8S_V-_-URlQppo'
     }
   };
